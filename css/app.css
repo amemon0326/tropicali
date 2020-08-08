@@ -1,0 +1,43 @@
+@import url(/Users/aaronmemon/Sites/Tropicali/css/reset.css);
+@font-face {
+  font-family: "Jost";
+  src: url(/Users/aaronmemon/Sites/Tropicali/fonts/jost-book.woff2), url(/Users/aaronmemon/Sites/Tropicali/fonts/jost-book.woff);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+  background-color: #ca774a;
+  color: #fff;
+  font-family: "Jost";
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.intro {
+  width: 500px;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    width: 350px;
+    font-size: 16px;
+  }
+}
+
+.intro p {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=app.css.map */

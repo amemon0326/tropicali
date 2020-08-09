@@ -1,0 +1,23 @@
+{
+  "name": "tropicali",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amemon0326/tropicali.git"
+  },
+  "author": "Aaron Memon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amemon0326/tropicali/issues"
+  },
+  "homepage": "https://github.com/amemon0326/tropicali#readme"
+}

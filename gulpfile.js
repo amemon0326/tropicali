@@ -1,9 +1,12 @@
 const { src, dest, series, watch, task } = require('gulp');
+var gulp = require('gulp')
 var cleanCSS = require('gulp-clean-css');
 var browserSync = require('browser-sync').create();
 var sourcemaps = require("gulp-sourcemaps");
 const { sync } = require('gulp-sass');
 var imagemin = require('gulp-imagemin');
+const gulpCleanCss = require('gulp-clean-css');
+const ghPages = require('gulp-gh-pages');
 
 function packagecss(cb) {
     return src('src/css/app.css')

@@ -74,6 +74,7 @@ nav img {
     justify-content: space-around;
     align-items: center;
     margin: var(--section-spacing) var(--gap-spacing) var(--section-spacing) var(--gap-spacing);
+    width: 100%;
 }
 
 .inner-grid {
@@ -125,7 +126,7 @@ nav img {
 
 .gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px var(--gap-spacing);
 }
 
